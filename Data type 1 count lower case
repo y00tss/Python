@@ -1,0 +1,9 @@
+
+n = input()
+nl = len(n)
+
+counter = 0
+for i in range(0, nl):
+    if n[i].islower():
+        counter += 1
+print(counter)
